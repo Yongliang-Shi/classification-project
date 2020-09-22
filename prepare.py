@@ -24,7 +24,7 @@ import acquire
 
 
 def cleaning(df):
-    cols = df.columns[:4].tolist()
+    cols = df.columns[:3].tolist()
     df.drop(columns=cols, inplace=True)
     df['partner_dependent'] = df.partner.str.cat(df.dependents)
     df['streaming'] = df.streaming_tv.str.cat(df.streaming_movies)
@@ -74,6 +74,7 @@ def cleaning(df):
                      'streaming_tv', 'streaming_movies',
                      'partner', 'dependents',
                      'gender'], inplace=True)
+    df.rename(columns = {'Male':'male'}, inplace=True)
     return df
 
 
@@ -89,4 +90,3 @@ def prep_telco_churn(df):
                                        random_state=123,
                                        stratify=train_validate.churn)
     return train, validate, test
-
