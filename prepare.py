@@ -74,7 +74,7 @@ def cleaning(df):
                      'streaming_tv', 'streaming_movies',
                      'partner', 'dependents',
                      'gender'], inplace=True)
-    df.rename(columns = {'Male':'male'}, inplace=True)
+    df.rename(columns = {'Male':'male', 'multiple_lines':'phone_service','internet_service_type':'internet_service'}, inplace=True)
     return df
 
 
