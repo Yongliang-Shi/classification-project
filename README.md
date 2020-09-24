@@ -34,7 +34,7 @@ My goal for this project is to construct a classification model that accurately 
 
 acquire data from the telco_churn database on the codeup data science database server. 
 
-### prepare.py
+### Prepare.py
 
 * Address missing data
 
@@ -46,7 +46,7 @@ acquire data from the telco_churn database on the codeup data science database s
 
 * Split data into train/validate/test
 
-### explore
+### Explore
 
 * Explore target variable:
     * Compute overall churn rate
@@ -64,7 +64,7 @@ acquire data from the telco_churn database on the codeup data science database s
     
 * Test 2 early hypothesis
 
-### modeling and evaluation
+### Modeling and Evaluation
 
 * Try 4 different algorithms: logistic regression, decision tree, random forest and knn
 
@@ -78,13 +78,17 @@ acquire data from the telco_churn database on the codeup data science database s
 
 * Run model on test to verify
 
-### conclusion
+### Conclusion
 
 * Summarize findings
 
 * Present key takeaways
 
 * Next steps
+
+### Predictions.csv
+
+* csv file with customer_id, probability of churn, and prediction of churn (1=churn, 0=not_churn)
 
 ## How to Reproduce
 
