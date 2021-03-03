@@ -9,6 +9,7 @@
 My goal for this project is to construct a classification model that accurately predicts customer churn. At the same time, I would like to idendity which of these conditions and attributes are the biggest dirivers for customer churn. I will deliver the following: acquire.py, prepare.py, report.ipynb, and predictions.csv.
 
 - [Slide Presentation](https://docs.google.com/presentation/d/1-Tz2gOahfgPnrxUXUg3ajXOad044bb9LwJ7IkaCuDqw/edit?usp=sharing)
+- [Tableau Presentation](https://public.tableau.com/profile/yongliang.shi#!/vizhome/ReducingChurnRatebyTargetingRightCustomers/Story1)
 
 ## Data Dictionary
 
