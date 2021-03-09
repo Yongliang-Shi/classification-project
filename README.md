@@ -1,12 +1,11 @@
-# Drivers of Customer Churn
+# Customer Churn Analysis and Classification Modeling
 
 ## About the Project
+Customer churn is one of the most important performance metrics for any subscription business. Churn analysis is the evaluation of a company's customer loss rate in order to reduce it. By exploring the customer churn dataset in a Telcommunication company, the project aims to idenfiy the biggest drivers behind the customer churn and construct a classification model that accurately predicts customer churn.
 
-### Goals
+### Project Overview
 
 ![project_overview](https://github.com/Yongliang-Shi/classification-project/blob/master/goal_slide.png)
-
-My goal for this project is to construct a classification model that accurately predicts customer churn. At the same time, I would like to idendity which of these conditions and attributes are the biggest dirivers for customer churn. I will deliver the following: acquire.py, prepare.py, report.ipynb, and predictions.csv.
 
 - [Slide Presentation](https://docs.google.com/presentation/d/1-Tz2gOahfgPnrxUXUg3ajXOad044bb9LwJ7IkaCuDqw/edit?usp=sharing)
 - [Tableau Presentation](https://public.tableau.com/profile/yongliang.shi#!/vizhome/ReducingChurnRatebyTargetingRightCustomers/Story1)
